@@ -22,7 +22,7 @@ def makePPT():
         j+=1
         filename=str(week)+'주차 김주연.pptx'
         prs.save(filename)
-        return exit
+
 
 root = tk.Tk()
 root.geometry("200x80")
